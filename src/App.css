@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar {
+    background-color: #25262c;
+    @apply h-16	px-2.5 flex items-center justify-between;
+  }
+  .owner {
+    font-family: "Akaya Telivigala", cursive;
+    font-family: "Pacifico", cursive;
+    font-family: "Rubik", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .profile-detail {
+    width: 401px;
+    @apply flex flex-col text-white ;
+  }
+  .item-activity{
+    background-color: #25262C;
+    
+    @apply w-full pl-6 pr-8 py-8 mt-2 rounded-lg 
+    
+  }
+}
+
